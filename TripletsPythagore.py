@@ -1,5 +1,8 @@
 ﻿import math
 
+def verification_triplet(a,b,c):
+    return a**2+b**2==c**2
+
 def liste_triplets_brut_smart_smart_smart(seuil):
     resultat = []
     seuil_a = min(math.ceil((-1+math.sqrt(2*seuil**2-1))/(2)),seuil-2)
