@@ -12,7 +12,7 @@
    * lorsque l'on parcourt les b pour un a donné, on pose que le maximum possible pour b²=seuil²-a²
    * lorsque l'on parcourt les c pour un a et un b donnés, on pose que l'on cherche autour de c²=a²+b² (on cherche autour en raison des limitations techniques des nombres décimaux codés informatiquement: afin de ne pas subir les effets de bord du codage informatique imparfait, on reste sur des calculs en valeur entière)
    
- L'algorithme a été testé par rapport à l'algorithme brut avec de nombreux seuils différents.
+ L'algorithme a été testé par rapport à l'algorithme basique avec de nombreux seuils différents.
  
  Pour un seuil de 100, l'algorithme utilise 6799 boucles contre 166650 pour l'algorithme basique.
  
