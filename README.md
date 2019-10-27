@@ -1,7 +1,7 @@
 # AlgorithmesPython
  Algorithmes en Python pour les mathématiques
 
-##TripletsPythagore.py:
+## TripletsPythagore.py:
  Algorithme permettant de trouver les triplets de Pythagore. Les triplets de Pythagore sont les nombres a,b,c entiers tels que a²+b²=c²
  
  Dans l'algorithme basique permettant de trouver les triplets, on utilise un nombre entier "seuil" valeur maximale que peut prendre c. Dans cet algorithme basique, on utilise la règle a<b<c
